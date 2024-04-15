@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.doanandroind.movie">
+
+    <uses-configuration android:name="android.permission.INTERNET" />
+    <uses-configuration android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.doanandroind.movie.MyApplication"
+        android:allowBackup="false"
+        tools:replace="android:allowBackup"
+        android:fitsSystemWindows="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MovieHub"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+
+        <activity
+            android:exported="true"
+            android:name="com.doanandroind.movie.activity.SplashActivity">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:exported="false"
+            android:name="com.doanandroind.movie.activity.MainActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.doanandroind.movie.activity.PlayMovieActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <activity
+            android:exported="false"
+            android:name="com.doanandroind.movie.activity.SignInActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.doanandroind.movie.activity.SignUpActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.doanandroind.movie.activity.ForgotPasswordActivity" />
+
+        <activity
+            android:exported="false"
+            android:name="com.doanandroind.movie.activity.ChangePasswordActivity" />
+    </application>
+
+</manifest>

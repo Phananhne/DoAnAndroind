@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "452013957574",
+    "firebase_url": "https://doanandroindnew-default-rtdb.firebaseio.com",
+    "project_id": "doanandroindnew",
+    "storage_bucket": "doanandroindnew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452013957574:android:cf386456111fe93ddf92c7",
+        "android_client_info": {
+          "package_name": "com.doanandroind.movie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVTkDstvSuXz5K0M_xfKUGWFNFPCy4ErM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
